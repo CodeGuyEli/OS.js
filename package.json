@@ -39,7 +39,6 @@
   "@osjs/client": "^3.7.1",
   "@osjs/dialogs": "^3.1.0",
   "@osjs/draw-application": "^1.2.12",
-  "@osjs/epub-application": "^1.2.0",
   "@osjs/filemanager-application": "^1.6.2",
   "@osjs/freedesktop-sounds": "^3.0.3",
   "@osjs/gnome-icons": "^4.0.5",
@@ -52,10 +51,6 @@
   "@osjs/settings-application": "^1.1.8",
   "@osjs/standard-theme": "^4.0.9",
   "@osjs/textpad-application": "^1.2.7",
-  "@osjs/tetris-application": "^1.0.1",
-  "@osjs/webodf-application": "^1.2.0",
-  "@osjs/windows8-theme": "^3.0.0",
-  "@osjs/wolfenstein3d-application": "^1.0.1",
   "hyperapp": "^1.2.10",
   "typeface-roboto": "0.0.75"
 },
