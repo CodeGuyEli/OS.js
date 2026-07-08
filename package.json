@@ -8,6 +8,8 @@
     "eslint": "eslint 'src/client/**/*.js' 'src/server/**/*.js'",
     "stylelint": "stylelint 'src/client/*.scss'",
     "serve": "node src/server/index.js",
+    "start": "node src/server/index.js",
+    "build": "webpack",
     "build:manifest": "osjs-cli package:discover",
     "package:discover": "osjs-cli package:discover",
     "package:create": "osjs-cli package:create",
@@ -17,7 +19,6 @@
     "make:application": "osjs-cli make:application",
     "make:iframe-application": "osjs-cli make:iframe-application",
     "make:provider": "osjs-cli make:provider",
-    "build": "webpack",
     "watch": "webpack --watch"
   },
   "keywords": [
@@ -60,7 +61,8 @@
   },
   "homepage": "https://www.os-js.org",
   "engines": {
-    "node": ">=10.0.0"
+    "node": "18.x",
+    "npm": ">=9"
   },
   "eslintConfig": {
     "env": {
