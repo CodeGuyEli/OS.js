@@ -40,5 +40,10 @@ const root = path.resolve(__dirname, '../../');
 module.exports = {
   root,
   port: parseInt(process.env.PORT, 10) || 8000,
-  public: path.resolve(root, 'dist')
+  public: path.resolve(root, 'dist'),
+
+  auth: {
+    enabled: true,
+    adapter: require('./auth.js')
+  }
 };
