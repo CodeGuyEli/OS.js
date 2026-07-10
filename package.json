@@ -59,7 +59,7 @@
     "@osjs/writer-application": "0.1.6",
     "@osjs/ace-application": "latest",
     "@osjs/strophejs-application": "latest",
-    "@osjs/pdfreader-application": "latest"
+    "@osjs/pdfreader-application": "latest",
     "hyperapp": "^1.2.10",
     "typeface-roboto": "0.0.75"
   },
