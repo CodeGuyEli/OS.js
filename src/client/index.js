@@ -72,3 +72,7 @@ const init = () => {
 };
 
 window.addEventListener('DOMContentLoaded', () => init());
+
+import {WidgetServiceProvider} from '@osjs/widgets';
+
+osjs.register(WidgetServiceProvider);
