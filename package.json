@@ -57,7 +57,6 @@
     "@osjs/windows8-theme": "latest",
     "@osjs/wolfenstein3d-application": "latest",
     "@osjs/writer-application": "0.1.6",
-    "@osjs/widgets": "latest",
     "hyperapp": "^1.2.10",
     "typeface-roboto": "0.0.75"
   },
