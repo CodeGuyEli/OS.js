@@ -1,4 +1,4 @@
-/*!
+ /*!
  * OS.js - JavaScript Cloud/Web Desktop Platform
  *
  * Copyright (c) 2011-2020, Anders Evenrud <andersevenrud@gmail.com>
@@ -7,11 +7,11 @@
  * Redistribution and use in source and binary forms, with or without
  * modification, are permitted provided that the following conditions are met:
  *
- * 1. Redistributions of source code must retain the above copyright notice, this
- *    list of conditions and the following disclaimer
+ * 1. Redistributions of source code must retain the above copyright notice,
+ *    this list of conditions and the following disclaimer
  * 2. Redistributions in binary form must reproduce the above copyright notice,
  *    this list of conditions and the following disclaimer in the documentation
- *    and/or other materials provided with the distribution
+ *    and/or other materials provided with the distribution.
  *
  * THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND
  * ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED
@@ -33,10 +33,6 @@
 // This is where you can register service providers or set up
 // your libraries etc.
 //
-// https://manual.os-js.org/guide/provider/
-// https://manual.os-js.org/install/
-// https://manual.os-js.org/resource/official/
-//
 
 import {
   Core,
@@ -51,6 +47,8 @@ import {
 import {PanelServiceProvider} from '@osjs/panels';
 import {GUIServiceProvider} from '@osjs/gui';
 import {DialogServiceProvider} from '@osjs/dialogs';
+import {WidgetServiceProvider} from '@osjs/widgets';
+
 import config from './config.js';
 import './index.scss';
 
@@ -67,12 +65,9 @@ const init = () => {
   osjs.register(PanelServiceProvider);
   osjs.register(DialogServiceProvider);
   osjs.register(GUIServiceProvider);
+  osjs.register(WidgetServiceProvider);
 
   osjs.boot();
 };
 
 window.addEventListener('DOMContentLoaded', () => init());
-
-import {WidgetServiceProvider} from '@osjs/widgets';
-
-osjs.register(WidgetServiceProvider);
