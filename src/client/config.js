@@ -35,13 +35,5 @@
 //
 
 export default {
-  {
-  desktop: {
-    settings: {
-      widgets: [{
-        name: 'digitalclock'
-      }]
-    }
-  }
-}
+
 };
